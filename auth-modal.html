@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Conteúdo Auth</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="auth-modal.css" />
+  </head>
+  <body>
+    <h2 id="modalTitle">Login</h2>
+    <form id="authForm" novalidate>
+      <input type="email" placeholder="Email" required autocomplete="email" />
+      <input
+        type="password"
+        placeholder="Senha"
+        required
+        autocomplete="current-password"
+      />
+      <button type="submit" id="submitBtn">Entrar</button>
+    </form>
+    <p class="toggle-text" id="toggleText">
+      Não tem uma conta? <a href="#" id="toggleLink">Registre-se</a>
+    </p>
+    <script src="auth-modal.js"></script>
+  </body>
+</html>
