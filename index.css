@@ -1,0 +1,63 @@
+/* Resetando margens e paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #1e1e1e; /* Fundo preto */
+  color: #33ff00; /* Texto verde claro */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.terminal-container {
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #33ff00;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.terminal-screen {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #000;
+  color: #33ff00;
+  font-size: 1rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  border-bottom: 2px solid #33ff00;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.prompt {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  color: #33ff00;
+  border: none;
+  flex: 1;
+  font-size: 1rem;
+  outline: none;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+input[type="text"]:focus {
+  border-bottom: 1px solid #33ff00;
+}
