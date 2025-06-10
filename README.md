@@ -6,7 +6,7 @@ Um editor de código ao vivo feito com HTML, CSS e JavaScript puros. Ele permite
 
 ## 📸 Captura de Tela
 
-![Exemplo do Editor](screenshot.png)
+![Exemplo do Editor](./assets/images/screenshot.png)
 
 ---
 
